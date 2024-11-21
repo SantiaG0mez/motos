@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    height: 100vh;
+
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-image: url(img/bkheader.jpg);
+}
+
+.linea_separa {
+    border: 0;
+    border-top: 2px groove #000; /* Línea de 2px de grosor y color negro */
+    width: 80%; /* El 80% del ancho del contenedor */
+    margin: 20px auto; /* Centrado y con márgenes arriba y abajo */
+}
+
+h1 {
+    border: 2px solid #756112;
+    padding: 1%;
+    color: beige;
+}
+#title_aside {
+    text-align: center;
+    border: 1px solid #333;
+}
+
+p {
+    text-align: left;
+}
+article {
+    display: block;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+/* Estilo para el nav */
+nav {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 10px 0;
+    width: 100%;
+    /* Puedes cambiar este valor según el tamaño del nav */
+}
+
+/* Estilo para la lista de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo para cada ítem de la lista */
+nav ul li {
+    margin: 0 100px;
+    /* Espaciado entre los ítems */
+}
+
+/* Estilo para los enlaces */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Efecto al pasar el ratón sobre los enlaces */
+nav ul li a:hover {
+    background-color: #555;
+    color: #ffcc00;
+    /* Cambio de color al pasar el ratón */
+}
+
+/* Contenedor principal que usa Flexbox */
+.container {
+    display: flex; /* Usamos Flexbox */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    padding: 20px;
+  }
+  
+  /* Estilo para el contenido principal */
+  main {
+    flex: 3; /* El contenido principal ocupa 3 partes del espacio */
+    padding-right: 20px; /* Espacio a la derecha */
+  }
+  
+  /* Estilo para el aside */
+  aside {
+    flex: 1; /* El aside ocupa 1 parte del espacio */
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #d9e4cc; /* Fondo para diferenciarlo */
+    padding: 15px;
+    border-radius: 8px;
+  }
+
+  div {
+    text-align: center;
+  }
+
+  .div_aside {
+    border: 1px solid #333 ;
+  }
+
+  #p_aside {
+    text-align: justify;
+    padding: 2%;
+  }
+
+  p {
+    text-align: left;
+    padding: 4%;
+  }
